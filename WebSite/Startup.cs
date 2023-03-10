@@ -1,4 +1,4 @@
-namespace WebSite
+namespace Website
 {
     public class Startup
     {
