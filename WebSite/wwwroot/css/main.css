@@ -7,15 +7,45 @@ body{
     display: flex;
     flex-direction: column;
 }
+@font-face {
+    font-family: "Clear Sans Regular";
+    src: url("/fonts/ClearSans-Regular.woff");
+}
+@font-face {
+    font-family: "Alta Regular";
+    src: url("/fonts/AltaRegular.otf");
+}
+@font-face {
+    font-family: "Tenor Sans Regular";
+    src: url("/fonts/TenorSansRegular.ttf");
+}
+.logo{
+    color:white;
+}
+.logo-icon{
+    margin: 0 auto;
+    width: 15rem;
+    display: block;
+}
+.logo-text{
+    margin: 0;
+    text-align: center;
+    font-family: "Alta Regular";
+    font-size: 1.5rem;
+    width: 100%;
+}
 .navigation{
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Clear Sans Regular";
+    padding: 0 2rem;
 }
 .navigation_elements{
     margin-top: 1rem;
+    font-weight: bold;
 }
 .navigation_elements-list{
     list-style-type: none;
@@ -25,11 +55,18 @@ body{
     justify-content: space-between;
 }
 .navigation_element{
-    margin: 0 .25rem;
+    
 }
 .navigation_logo{
-    width: 8rem;
-}      
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navigation_logo-icon{
+    width: 5rem;
+}
 .navigation_contact{
     margin-bottom: 1rem;
 }
@@ -37,28 +74,43 @@ body{
     margin: 0;
 }
 .main-content{
-    background-image: url('/images/fondoprincipal.png');
+    background-image: url('/images/FondoPrincipalObscured.png');
     flex-grow: 1;
+    position: relative;
 }
+
 .title{
     text-align: center;
     color: white;
+    font-family: "Alta Regular";
+    font-weight: normal;
+    font-size: 7rem;
+    margin: 0;
+}
+.title-text{
+    margin: 0;
 }
 .subtitle{
     text-align: center;
     color: white;
+    font-family: "Tenor Sans Regular";
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 0;
 }
 .button{
+    text-align: center;
+    margin-top: 10rem;
+}
+.button-link{
     color: white;
     border: 1px solid white;
     padding: 0.5rem 1rem;
     border-radius: 5%;
     text-decoration: none;
+    font-family: "Tenor Sans Regular";
 }
-.button:hover{
+.button-link:hover{
     background-color: white;
     color: black;
 }
-
-
-
