@@ -1,0 +1,30 @@
+.services{
+    text-align: center;
+    color: white;
+}
+.services_title{
+    font-family: "Tenor Sans Regular";
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: 5px solid;
+    
+}
+.services_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+.services_top-left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.services_center{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.services_image{
+    width: 20rem;
+}
