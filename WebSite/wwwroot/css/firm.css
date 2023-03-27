@@ -1,0 +1,22 @@
+.main-content{
+    display: flex;
+}
+.firm{
+    color: white;
+    align-self: end;
+    background-color: rgba(0,0,0,.9);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.firm_title{
+    font-family: "Tenor Sans Regular";
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: 5px solid;
+}
+.firm_content{
+    font-size: 1.5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
